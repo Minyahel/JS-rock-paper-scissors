@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <script src="https://kit.fontawesome.com/e2afd2db0c.js" crossorigin="anonymous"></script>
+    <title>Rock Paper Scissors</title>
+</head>
+<body>
+    <header>
+        <h1>Rock Paper Scissors</h1>
+        <h3>The winner is first to 5 points</h3>
+    </header>
+    <main>
+        <div id="human">
+            <h2>Human</h2>
+            <div class="board">
+                <div class="score">
+                    <span><i class="far fa-user"></i></span>
+                    <div class="num">
+                        <span>Score</span>
+                        <span id="hum_score">0</span>
+                    </div>
+                </div>
+                <div class="buttons">
+                    <div id="hum_rock">
+                        <button><i class="far fa-hand-rock"></i></button>
+                    </div>
+                    <div id="hum_pap">
+                        <button><i class="far fa-hand-paper"></i></button>
+                    </div>
+                    <div id="hum_sci">
+                        <button><i class="far fa-hand-scissors"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="computer">
+            <h2>Computer</h2>
+            <div class="board">
+                <div class="score">
+                    <span><i class="fas fa-robot"></i></span>
+                    <div class="num">
+                        <span>Score</span>
+                        <span id="com_score">0</span>
+                    </div>
+                </div>
+                <div class="buttons">
+                    <div id="com_rock">
+                        <button><i class="far fa-hand-rock"></i></button>
+                    </div>
+                    <div id="com_pap">
+                        <button><i class="far fa-hand-paper"></i></button>
+                    </div>
+                    <div id="com_sci">
+                        <button><i class="far fa-hand-scissors"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="./js/script.js"></script>
+</body>
+</html>
